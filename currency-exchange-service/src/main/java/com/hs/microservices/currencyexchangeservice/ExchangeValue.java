@@ -56,9 +56,4 @@ public class ExchangeValue {
 	public void setPort(int port) {
 		this.port = port;
 	}
-
-	@Override
-	public String toString() {
-		return String.format("%s to %s and port is %d ", from, to, port);
-	}
 }
