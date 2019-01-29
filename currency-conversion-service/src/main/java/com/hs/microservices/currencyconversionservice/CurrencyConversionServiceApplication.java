@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import brave.sampler.Sampler;
 
 @SpringBootApplication
-@EnableFeignClients(basePackages = "com.hs.microservices.currencyconversionservice")
+@EnableFeignClients
 @EnableDiscoveryClient
 public class CurrencyConversionServiceApplication {
 
